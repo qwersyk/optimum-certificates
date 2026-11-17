@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 292" width="700" height="292" role="img" aria-label="A network with uncertain edge costs, its cheapest spanning tree, and the edges that must be measured">
+<style>
+  text { font: 12px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #57606a; }
+  .title { font-size: 13px; }
+  .node { fill: #ffffff; stroke: #57606a; stroke-width: 1.2; }
+  .edge { stroke: #afb8c1; stroke-width: 1.5; }
+  .tree { stroke: #24292f; stroke-width: 3; }
+  .query { stroke: #cf222e; }
+  .asked { fill: #cf222e; font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    text { fill: #8b949e; }
+    .node { fill: #0d1117; stroke: #8b949e; }
+    .edge { stroke: #484f58; }
+    .tree { stroke: #e6edf3; }
+    .query { stroke: #f85149; }
+    .asked { fill: #f85149; }
+  }
+</style>
+<g transform="translate(0 0)">
+<text class="title" x="170.0" y="278" text-anchor="middle">to certify that the tree is cheapest: 2 queries</text>
+<line class="edge tree query" x1="80" y1="40" x2="260" y2="40"/>
+<line class="edge tree" x1="260" y1="40" x2="260" y2="220"/>
+<line class="edge tree query" x1="260" y1="220" x2="80" y2="220"/>
+<line class="edge" x1="80" y1="220" x2="80" y2="40"/>
+<line class="edge" x1="80" y1="40" x2="260" y2="220"/>
+<line class="edge" x1="260" y1="40" x2="80" y2="220"/>
+<text class="asked" x="170" y="28" text-anchor="middle">3 (2–6)</text>
+<text x="296" y="134" text-anchor="middle">2 (1–3)</text>
+<text class="asked" x="170" y="242" text-anchor="middle">5 (4–9)</text>
+<text x="44" y="134" text-anchor="middle">7 (5–8)</text>
+<text x="166" y="94" text-anchor="middle">6 (3–7)</text>
+<text x="166" y="176" text-anchor="middle">8 (6–10)</text>
+<circle class="node" cx="80" cy="40" r="11"/><text x="80" y="44" text-anchor="middle">A</text>
+<circle class="node" cx="260" cy="40" r="11"/><text x="260" y="44" text-anchor="middle">B</text>
+<circle class="node" cx="260" cy="220" r="11"/><text x="260" y="224" text-anchor="middle">C</text>
+<circle class="node" cx="80" cy="220" r="11"/><text x="80" y="224" text-anchor="middle">D</text>
+</g>
+<g transform="translate(360 0)">
+<text class="title" x="170.0" y="278" text-anchor="middle">to certify that it is the only cheapest tree: 4 queries</text>
+<line class="edge tree query" x1="80" y1="40" x2="260" y2="40"/>
+<line class="edge tree" x1="260" y1="40" x2="260" y2="220"/>
+<line class="edge tree query" x1="260" y1="220" x2="80" y2="220"/>
+<line class="edge query" x1="80" y1="220" x2="80" y2="40"/>
+<line class="edge query" x1="80" y1="40" x2="260" y2="220"/>
+<line class="edge" x1="260" y1="40" x2="80" y2="220"/>
+<text class="asked" x="170" y="28" text-anchor="middle">3 (2–6)</text>
+<text x="296" y="134" text-anchor="middle">2 (1–3)</text>
+<text class="asked" x="170" y="242" text-anchor="middle">5 (4–9)</text>
+<text class="asked" x="44" y="134" text-anchor="middle">7 (5–8)</text>
+<text class="asked" x="166" y="94" text-anchor="middle">6 (3–7)</text>
+<text x="166" y="176" text-anchor="middle">8 (6–10)</text>
+<circle class="node" cx="80" cy="40" r="11"/><text x="80" y="44" text-anchor="middle">A</text>
+<circle class="node" cx="260" cy="40" r="11"/><text x="260" y="44" text-anchor="middle">B</text>
+<circle class="node" cx="260" cy="220" r="11"/><text x="260" y="224" text-anchor="middle">C</text>
+<circle class="node" cx="80" cy="220" r="11"/><text x="80" y="224" text-anchor="middle">D</text>
+</g>
+</svg>

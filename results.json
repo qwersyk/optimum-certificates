@@ -1,0 +1,13 @@
+{
+ "seed": 1,
+ "finite": {
+  "instances": 5000,
+  "with several optimal bases": 1160,
+  "answers compared": 112614
+ },
+ "intervals": {
+  "instances": 5000,
+  "with several optimal bases": 276,
+  "answers compared": 70958
+ }
+}

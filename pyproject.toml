@@ -1,0 +1,17 @@
+[project]
+name = "optcert"
+version = "0.1.0"
+description = "Minimum-cost certificates for optimal matroid bases under uncertain weights"
+requires-python = ">=3.10"
+license = "MIT"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["optcert"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
